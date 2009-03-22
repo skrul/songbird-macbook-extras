@@ -82,7 +82,9 @@ sbMacBookExtrasService::Pause()
   rv = manager->GetPlaybackControl(getter_AddRefs(playbackControl));
   NS_ENSURE_SUCCESS(rv, rv);
 
-  playbackControl->Pause();
+  if (playbackControl) {
+    playbackControl->Pause();
+  }
   return NS_OK;
 }
 

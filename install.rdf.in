@@ -10,8 +10,8 @@
     <em:targetApplication>
       <Description>
         <em:id>songbird@songbirdnest.com</em:id>
-        <em:minVersion>1.1</em:minVersion>
-        <em:maxVersion>1.2.*</em:maxVersion>
+        <em:minVersion>1.1.1</em:minVersion>
+        <em:maxVersion>1.2.0a</em:maxVersion>
       </Description>
     </em:targetApplication>
 
@@ -22,7 +22,7 @@
     </em:description>
     <em:creator>Steve Krulewitz</em:creator>
     <em:homepageURL>http://skrul.com</em:homepageURL>
-    <em:version>1.0</em:version>
+    <em:version>1.0.1</em:version>
 
     <em:type>2</em:type>
     <em:targetPlatform>@EXTENSION_ARCH@</em:targetPlatform>
