@@ -72,7 +72,7 @@ DYNAMIC_LIB_EXTRA_FLAGS= -framework Foundation \
 DYNAMIC_LIB_EXTRA_IMPORTS += mozjs
 
 # put this in our staging directory
-EXTENSION_STAGE_DIR = $(SONGBIRD_OBJDIR)/extensions/macbookextras/.xpistage
+EXTENSION_STAGE_DIR = $(SONGBIRD_OBJDIR)/extensions/songbird-macbook-extras/.xpistage
 
 # into components/
 SONGBIRD_COMPONENTS = $(DYNAMIC_LIB)
